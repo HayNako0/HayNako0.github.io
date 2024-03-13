@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Eczar';
+    src: url('Eczar.ttf'),
+    url(../css/Eczar.ttf);
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+header img {
+    width: 230px;
+    height: auto;
+}
+
+.rectangle {
+    padding: 2%;
+    margin: 2% auto 5%;
+    width: 90%;
+    max-width: 1000px;
+    overflow: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Eczar';
+    color: azure;
+}
+
+.rectangle.intro {
+    padding: 2%;
+    margin: 2% auto 5%;
+    width: 90%;
+    max-width: 1000px;
+    overflow: auto;
+    font-family: 'Eczar';
+    color: azure;
+    justify-content: center;
+}
+
+.rectangle h3 {
+    text-align: center;
+    background-color: black; 
+    border-radius: 60px;
+    padding: 15px;
+    margin: 2px;
+    width: 30%;
+    border: 1px solid rgb(122, 122, 9);
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.rectangle h3.thought {
+    font-size: small;
+    width: 80%;
+    justify-content: center;
+}
+
+.rectangle.intro h4 {
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.rectangle.intro h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+.rectangle.intro h2 {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.rectangle.intro img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.rectangle.intro .gallery {
+    justify-content: center;
+    text-align: center;
+}
+
+.rectangle.intro .character-info h3 {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.rectangle.intro .character-info p {
+    justify-content: center;
+    text-align: center;
+}
+
+.final-rectangle {
+    background-color: #e2e1e1; 
+    border-radius: 20px; 
+    padding: 15px;
+    margin: 140px auto 50px;
+    width: 95%; 
+    max-width: 400px; 
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.final-rectangle img.creatorpfp {
+    max-width: 120px; 
+    height: auto;
+    float: left; 
+    margin-top: 30px; 
+    margin-left: 10px;
+}
+
+.final-rectangle h3, p {
+    text-align: center;
+    font-family: 'Eczar';
+}
+
+@media only screen and (max-width: 768px) {
+    .rectangle {
+        padding: 5%;
+        margin: 5% auto 10%;
+    }
+
+    .rectangle h3 {
+        width: 90%;
+        margin-top: 0.5rem;
+    }
+
+    .rectangle.intro h1 {
+        font-size: 40px;
+    }
+
+    .rectangle.intro h2 {
+        font-size: 30px;
+    }
+
+    .rectangle.intro h4 {
+        font-size: medium;
+        margin-top: 1rem;
+    }
+
+    .rectangle.intro .character-info {
+        margin-top: 1rem;
+    }
+}
